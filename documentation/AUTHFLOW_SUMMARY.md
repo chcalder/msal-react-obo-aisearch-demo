@@ -462,9 +462,9 @@ python app.py
 
 ## Related Documentation
 
-- **[README.md](README.md)** - Project overview and quick start
+- **[README.md](../README.md)** - Project overview and quick start
 - **[SECURITY_COMPARISON.md](SECURITY_COMPARISON.md)** - OBO vs API Key security analysis
-- **[SECURITY_CONFIGURATION.md](msal-react-obo-sample/python-obo-api/SECURITY_CONFIGURATION.md)** - Detailed security guide
-- **[SEARCH_CONFIG.md](msal-react-obo-sample/python-obo-api/SEARCH_CONFIG.md)** - Azure AI Search setup
-- **[React App README](msal-react-obo-sample/msaljs-react-authflows-demo/README.md)** - Frontend documentation
-- **[Python API README](msal-react-obo-sample/python-obo-api/README.md)** - Backend documentation
+- **[QUERY-TIME_ACCESS_CONTROL.md](QUERY-TIME_ACCESS_CONTROL.md)** - Azure AI Search query-time access control guide
+- **[React App README](../msal-react-obo-sample/msaljs-react-authflows-demo/README.md)** - Frontend documentation
+- **[Python API README](../msal-react-obo-sample/python-obo-api/README.md)** - Backend documentation with Azure AI Search and Security sections
+- **[Configuration Guide](../msal-react-obo-sample/CONFIGURATION.md)** - Centralized configuration management

@@ -1,4 +1,4 @@
-# MSAL React On-Behalf-Of (OBO) Demo
+# MSAL React On-Behalf-Of (OBO) and AI Search Security Filtering Demo
 
 A comprehensive demonstration of authentication and authorization flows using Microsoft Authentication Library (MSAL) with React, Python Flask, and Azure services.
 

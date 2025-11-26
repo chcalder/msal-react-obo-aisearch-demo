@@ -23,10 +23,9 @@ msal-react-obo-demo/
     │
     └── python-obo-api/                 # Python Flask API
         ├── app.py                      # Main API application
+        ├── config.py                   # Centralized configuration
         ├── requirements.txt            # Python dependencies
-        ├── README.md                   # API documentation
-        ├── SEARCH_CONFIG.md           # Azure AI Search configuration
-        └── SECURITY_CONFIGURATION.md   # Security and compliance guide
+        └── README.md                   # API documentation with Azure AI Search and Security sections
 ```
 
 ## Architecture
@@ -161,12 +160,10 @@ SEARCH_API_KEY=<your-key>      # Required for API_KEY mode
 
 - **[Configuration Guide](msal-react-obo-sample/CONFIGURATION.md)** - Centralized configuration management
 - **[React App README](msal-react-obo-sample/msaljs-react-authflows-demo/README.md)** - Frontend setup and usage
-- **[Python API README](msal-react-obo-sample/python-obo-api/README.md)** - Backend API endpoints and configuration
-- **[Search Configuration](msal-react-obo-sample/python-obo-api/SEARCH_CONFIG.md)** - Azure AI Search setup guide
-- **[Security Configuration](msal-react-obo-sample/python-obo-api/SECURITY_CONFIGURATION.md)** - Security architecture and compliance
-- **[Security Comparison](SECURITY_COMPARISON.md)** - OBO vs API Key detailed analysis
-- **[Auth Flow Summary](AUTHFLOW_SUMMARY.md)** - End-to-end authentication flow
-- **[AI Search Query-Time Security Trimming](AI%20Search%20Query-Time%20Security%20Trimming.md)** - Comprehensive query-time access control guide
+- **[Python API README](msal-react-obo-sample/python-obo-api/README.md)** - Backend API endpoints, Azure AI Search configuration, and security architecture
+- **[Security Comparison](documentation/SECURITY_COMPARISON.md)** - OBO vs API Key detailed analysis
+- **[Auth Flow Summary](documentation/AUTHFLOW_SUMMARY.md)** - End-to-end authentication flow
+- **[Query-Time Access Control Guide](documentation/QUERY-TIME_ACCESS_CONTROL.md)** - Comprehensive query-time access control guide
 
 ## Authentication Flows
 
@@ -222,7 +219,7 @@ SEARCH_API_KEY=<your-key>      # Required for API_KEY mode
 ⚠️ Limited audit trail  
 ⚠️ Still applies query-time access control (passes same token to Azure AI Search)
 
-See [SECURITY_CONFIGURATION.md](msal-react-obo-sample/python-obo-api/SECURITY_CONFIGURATION.md) for detailed security analysis.
+See the [Python API README](msal-react-obo-sample/python-obo-api/README.md#security-architecture) for detailed security analysis.
 
 ## Troubleshooting
 

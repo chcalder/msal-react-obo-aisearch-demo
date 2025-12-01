@@ -11,6 +11,9 @@ This project showcases:
 - **Azure AI Search** with native query-time access control (no manual filter construction)
 - **Token comparison** features for understanding OAuth token scoping
 
+![Authorization Model](images/authZ-Model.jpg)
+
+
 ## Project Structure
 
 ```

@@ -206,7 +206,7 @@ filter_description = "Query-time access control: Azure AI Search evaluates Group
 ┌─────────────────────────────────────────────────────────────────┐
 │ 2. Token Acquisition (React SPA)                                │
 │    Home.jsx: instance.acquireTokenSilent()                      │
-│    Scope: api://24195658.../access_as_user                      │
+│    Scope: api://<YOUR_API_CLIENT_ID>/access_as_user             │
 │    Result: Access Token for Python API                          │
 └─────────────────────────────────────────────────────────────────┘
                             ↓
